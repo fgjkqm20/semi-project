@@ -1,0 +1,43 @@
+/*페이지 번호*/
+.pagenumber-warp{
+    margin-top: 80px;
+}
+.pagenumber-list>ul{
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+}
+
+.pagenumber-list>ul>li{
+    display: inline-block;
+    margin: 5px;
+}
+
+.pagenumber-list>ul>li>a{
+    display: block;
+    float: left;
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    border:1px solid transparent;
+    line-height: 30px;
+    transition-duration: 0.3s;
+    border-radius: 100%;
+    color: #181842;
+}
+
+.pagenumber-list>ul>li>a:hover{
+    width: 30px;
+    height: 30px;
+    border:1px solid rgb(255, 197, 0);
+    border-radius: 100%;
+    background-color: rgb(255, 197, 0);
+    color: white;
+    font-weight: 800;
+}
+
+
+.pagination .page-item.active-page {
+  background-color: #252a34;
+  color: #fff;
+}

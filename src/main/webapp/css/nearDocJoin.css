@@ -1,0 +1,621 @@
+.join-wrap{
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+.go-login{
+    line-height: 50px;
+    text-align: right;
+}
+
+.go-login>span{
+    font-size: 16px;
+}
+
+.go-login>a{
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(16, 203, 156);
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.go-login>a:hover{
+    color: white;
+}
+
+.join-content{
+    margin-top: 30px;
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+}
+
+.join-title{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.join-title>h1>span{
+    margin-left: 10px;
+    font-size: 20px; 
+    color: rgb(16, 203, 156); 
+}
+
+.join-real-content{
+    margin-top: 20px;
+}
+
+.join-real-content>ul{
+    list-style-type: none;
+    width: 700px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.agree-title{
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+.allAgree{
+    width: 698px;
+    height: 60px;
+    border: 1px solid black;
+    display: flex;
+    padding-left: 20px;
+}
+
+.allAgree>input[name=allAgree]{
+    display: none;
+}
+
+.allAgree>label>span{
+    line-height: 60px;
+}
+
+.allAgree>label>span, .allAgree>span{
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.joinAgree-title{
+    width: 698px;
+    height: 60px;
+    display: flex;
+    padding-left: 20px;
+}
+
+.joinAgree-title>input[name=joinAgree-title]{
+    display: none;
+}
+
+.joinAgree-title>label>span{
+    line-height: 60px;
+}
+
+.joinAgree-title>label>span, .joinAgree-title>span{
+    font-size: 20px;
+    line-height: 60px;
+}
+
+.joinAgree-title>span{
+    margin-right: 330px;
+}
+
+.joinDetail{
+    width: 695px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 0 auto;
+    overflow: scroll;
+    overflow-x: hidden;
+    display: none;
+}
+
+.detailBtn{
+    height: 30px;
+    margin-top: 15px;
+    border-style: none;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    color: rgb(16, 203, 156);
+}
+
+.personalProtect{
+    width: 698px;
+    height: 60px;
+    display: flex;
+    padding-left: 20px;
+}
+
+.personalProtect>input[type=checkBox]{
+    display: none; 
+}
+
+.personalProtect>label>span{
+    line-height: 60px;
+}
+
+.personalProtect>label>span, .personalProtect>span{
+    font-size: 20px;
+    line-height: 60px;
+}
+
+.personalProtect>span{
+    margin-right: 330px;
+}
+
+.personalDetail{
+    width: 695px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 0 auto;
+    overflow: scroll;
+    overflow-x: hidden;
+    display: none;
+}
+
+.personalHandling{
+    width: 698px;
+    height: 60px;
+    display: flex;
+    padding-left: 20px;
+}
+
+.personalHandling>input[type=checkBox]{
+    display: none; 
+}
+
+.personalHandling>label>span{
+    line-height: 60px;
+}
+
+.personalHandling>label>span, .personalHandling>span{
+    font-size: 20px;
+    line-height: 60px;
+}
+
+.personalHandling>span{
+    margin-right: 330px;
+}
+
+.handlingDetail{
+    width: 695px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 0 auto;
+    overflow: scroll;
+    overflow-x: hidden;
+    display: none;
+}
+
+.next{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.statusBtn{
+    width: 100px;
+    height: 50px;
+}
+
+.statusBtn:first-child{
+    border-style: none;
+    border-radius: 10px;
+    color: gray;
+}
+
+.statusBtn:last-child{
+    color: white;
+    background-color: rgb(16, 203, 156);
+    border-style: none;
+    border-radius: 10px;
+}
+
+.info-info{
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.info-info>span:last-child{
+    float: right;
+    color: red;
+}
+
+.class-info{
+    width: 700px;
+    margin: 0 auto;
+}
+
+.id-ul{
+    list-style-type: none;
+    padding: 0px;
+    width: 700px;
+    padding-bottom: 30px;
+}
+
+.id-ul>li{
+    border-bottom: 1px solid lightgray;
+}
+
+.id-ul>li:last-child{
+    border-style: none;
+}
+
+.id-wrap{
+    display: flex;
+    width: 700px;
+    /* border-bottom: 1px solid lightgray; */
+}
+
+.idTitle{
+    width: 150px;
+    height: 81px;
+    text-align: center;
+    line-height: 81px;
+    background-color: bisque;
+    
+}
+
+.idValue{
+    margin-right: 10px;
+    
+}
+
+.idValue>input{
+    width: 220px;
+    height: 40px;
+    /* margin-top: 20px; */
+    margin-left: 20px;
+}
+
+.idcheck{
+    margin-left: 10px;
+}
+
+.idcheck>button{
+    margin-top: 25px;
+}
+
+.id{
+    /* background-color: aqua; */
+    
+    border-top: 1px solid lightgray;
+}
+
+.purpose{
+    /* background-color: lightgray; */
+    
+}
+
+
+
+.idValue>select{
+    width: 220px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+
+.password-wrap{
+    display: flex;
+    width: 350px;
+}
+
+.passwordValue{
+    /* background-color: chartreuse; */
+    width: 200px;
+    
+    /* border-bottom: 1px solid lightgray; */
+}
+
+.passwordValue>input{
+    width: 180px;
+    height: 40px;
+    /* margin-top: 20px; */
+    margin-left: 10px;
+}
+
+.passwordReg{
+    margin: 0px;
+    padding-left: 20px;
+    font-size: 12px;
+    height: 20px;
+}
+
+.passwordChkReg{
+    margin: 0px;
+    padding-left: 20px;
+    font-size: 12px;
+    height: 20px;
+}
+
+.passwordcheck-wrap{
+    display: flex;
+}
+
+.passwordFlex{
+    display: flex;
+}
+
+.name-wrap{
+    display: flex;
+}
+
+.nameValue{
+    /* border-bottom: 1px solid lightgray; */
+}
+
+.nameValue>input{
+    width: 180px;
+    height: 40px;
+    /* margin-top: 20px; */
+    margin-left: 10px;
+}
+
+.nameReg{
+    margin: 0px;
+    padding-left: 20px;
+    font-size: 12px;
+    height: 20px;
+}
+
+.nameValue{
+    /* background-color: cornsilk; */
+    width: 550px;
+}
+
+.possibleId{
+    margin: 0px;
+    padding-left: 20px;
+    font-size: 12px;
+    height: 20px;
+}
+
+.emailTitle{
+    width: 150px;
+    height: 161px;
+    text-align: center;
+    line-height: 161px;
+    background-color: bisque;
+    /* border-bottom: 1px solid lightgray; */
+}
+
+.emailPart{
+    /* border-bottom: 1px solid lightgray; */
+}
+
+.emailReg{
+    margin: 0px;
+    padding-left: 25px;
+    font-size: 12px;
+    height: 20px;
+}
+
+.inputEmail>input{
+    width: 350px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+#emailAu{
+    margin-top: 20px;
+    width: 200px;
+}
+
+.authEmail>.inputEmail{
+	position: relative;
+}
+
+.emailText{
+	width : 190px;
+	height : 40px;
+	margin-left: 220px;
+	padding-bottom: 20px;
+	position: absolute;
+	top : 28px;
+}
+
+.inputEmail{
+    width: 400px;
+    height: 80px;
+    /* background-color: aqua; */
+    border-right: 1px solid lightgray;
+}
+
+.authBtn1{
+    width: 150px;
+    height: 80px;
+    /* background-color: burlywood; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 17px;
+}
+
+.authEmail{
+    display: flex;
+    /* border-bottom: 1px solid lightgray; */
+}
+
+#getEmail{
+    border-top: 1px solid lightgray;
+}
+
+.emailReg{
+    font-size: 12px;
+}
+
+.email-wrap{
+    display: flex;
+}
+
+li>div{
+    display: flex;
+}
+
+.phoneReg{
+    margin: 0px;
+    padding-left: 25px;
+    font-size: 12px;
+    height: 20px;
+}
+
+.phoneValue{
+    width: 550px;
+    /* background-color: lightgray; */
+    /* border-bottom: 1px solid lightgray; */
+}
+
+.phoneValue>input{
+    width: 350px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.postValue{
+    display: flex;
+    width: 550px;
+    /* background-color: aquamarine; */
+    /* border-bottom: 1px solid lightgray; */
+}
+
+.postBtn{
+    text-align: center;
+    line-height: 80px;
+    margin-left: 10px;
+}
+
+.inputPost{
+    display: flex;
+}
+
+.inputPost>div{
+    line-height: 80px;
+    margin-left: 10px;
+}
+
+.inputPost>input{
+    width: 100px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.addrValue{
+    width: 550px;
+    /* background-color: chartreuse; */
+    /* border-bottom: 1px solid lightgray; */
+}
+
+.addrValue>input{
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.fileValue{
+    width: 550px;
+    /* background-color: lightgray; */
+    display: flex;
+    /* border-bottom: 1px solid lightgray; */
+}
+
+.fileValue>input[name=upfile]::file-selector-button{
+    width: 100px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgb(16, 203, 156);
+    border-style: none;
+    color: white;
+}
+
+.nextBtn>.btn{
+    width: 700px;
+    margin-top: 30px;
+}
+
+.btn>button{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+    background: rgb(16, 203, 156);
+    color: white;
+}
+
+.class-info label>span{
+    color: red;
+}
+
+.img-ab{
+    position: relative;
+}
+
+.img-viewer{
+    position: absolute;
+    
+    top:0%;
+    right: 0%;
+    text-align: center;
+}
+
+.purpose>div>label{
+    border: 1px solid rgb(16, 203, 156);
+    color: white;
+    border-radius: 10px;
+    width: 80px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(16, 203, 156);
+    height: 40px;
+    line-height: 40px;
+    margin-left: 30px;
+}
+
+.welcome{
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.welcome-title>h1{
+    text-align: center;
+}
+
+.welcome-img{
+    margin-top: 50px;
+}
+
+.welcome-img>img{
+    width: 400px;
+    height: 400px;
+    margin-left: 150px;
+}
+
+.log-go{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.log-go>button{
+    width: 150px;
+    height: 50px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: rgb(16, 203, 156);
+    color: white;
+}

@@ -1,0 +1,35 @@
+.page-title{
+	height: 30px;
+	margin: 10px 0px;
+	border-bottom: 2px solid #e5e5e5;
+}
+
+.page-title>p{
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+	font-family: ns-bold;
+	border-bottom: 2px solid #4d4d4d;
+	display: inline-block;
+}
+
+.id-addr-box{
+	padding: 40px 0px;
+    border: 1px solid #e5e5e5;
+    margin-top: 20px;
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.page-btn-box-wrap{
+	display: flex;
+	justify-content: center;
+}
+
+.page-btn-box{
+	width: 250px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}

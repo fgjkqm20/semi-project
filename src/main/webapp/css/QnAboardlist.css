@@ -1,0 +1,84 @@
+/*헤더 밑에 사진 */
+.main-img{
+    height: 30vh;
+    background-image: url(/img/clinicImg/qna게시판배경con3_bg.jpg);
+    background-size: cover;
+    text-align: center;
+    font-family: ns-m;
+    font-size: 30px;
+    color: aliceblue;
+    line-height: 180px;
+}
+
+/*page-content bottom 여백*/
+#boardlistwarp{
+	margin-bottom: 110px;
+}
+
+
+/*qna 밑에 글씨 */
+.main-img>div{
+    position: relative;
+    bottom: 140px;
+    font-family: ns-thin;
+    color: white;
+    font-size: 14px;
+}
+
+/*테이블 가운데정렬*/
+.notice-tbl{
+    margin: 0 auto;
+}
+
+/*글쓰기버튼 정렬*/
+.page-title>.writeBtn{
+    float: right;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    padding-top: 7px;
+}
+
+/*페이지 번호*/
+.pagenumber-warp{
+    margin-top: 80px;
+}
+.pagenumber-list>ul{
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+}
+
+.pagenumber-list>ul>li{
+    display: inline-block;
+    margin: 5px;
+}
+
+.pagenumber-list>ul>li>a{
+    display: block;
+    float: left;
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    border:1px solid transparent;
+    line-height: 30px;
+    transition-duration: 0.3s;
+    border-radius: 100%;
+    color: #181842;
+}
+
+.pagenumber-list>ul>li>a:hover{
+    width: 30px;
+    height: 30px;
+    border:1px solid rgb(255, 197, 0);
+    border-radius: 100%;
+    background-color: rgb(255, 197, 0);
+    color: white;
+    font-weight: 800;
+}
+
+
+.pagination .page-item.active-page {
+  background-color: #252a34;
+  color: #fff;
+}
+

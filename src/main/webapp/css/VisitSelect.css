@@ -1,0 +1,48 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    color: rgba(37, 42, 52, 1);
+    font-family: ns-m;
+    font-size: 16px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.page-content{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.VStop{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.VStoptitle{
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+.VScenter{
+    width: 500px;
+    height: 200px;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.showVisit{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.showVisitBtn{
+    width: 200px;
+    height: 50px;
+    font-weight: 900;
+    margin-left: 150px;
+    margin-top: 20px;
+}

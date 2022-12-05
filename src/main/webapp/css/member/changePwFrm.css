@@ -1,0 +1,51 @@
+.page-title{
+	height: 30px;
+	margin: 10px 0px;
+	border-bottom: 2px solid #e5e5e5;
+}
+
+.page-title>p{
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+	font-family: ns-bold;
+	border-bottom: 2px solid #4d4d4d;
+	display: inline-block;
+}
+
+.pw-change-box-wrap{
+	padding: 40px 0px;
+    border: 1px solid #e5e5e5;
+    margin-top: 20px;
+}
+
+#id-text{
+	margin: 0 atuo;
+	margin-left: 64px;
+}
+
+.pw-change-box{
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+.pw-change-box>span{
+	display: block;
+	line-height: 34px;
+	width: 220px;
+}
+.pw-change-box>input{
+	margin-right: 20px;
+}
+
+#note{
+	margin-left: 64px;
+	margin-top: 30px;
+	font-size: 12px;
+	color: #8e8e8e;
+}
+
+.check-btn{
+	margin: 0 auto;
+	margin-top: 20px;
+}

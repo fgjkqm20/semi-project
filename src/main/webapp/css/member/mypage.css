@@ -1,0 +1,254 @@
+.page-content{
+    overflow: hidden;
+}
+.profil-wrap{
+    width: 20%;
+    height: 100vh;
+    float: left;
+}
+
+
+/* my 인포 탭 */
+.my-info{
+    width: 79%;
+    height: 150px;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    background-color: rgba(238, 238, 238, 0.385);
+    float: left;
+}
+#info-box{
+    list-style: none;
+    display: flex;
+}
+.my-info>ul li{
+    height: 120px;
+    margin-top: 15px;
+    padding-left: 15px;
+    border-right: 1px solid rgb(65, 65, 65);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.my-info>ul li:first-child{
+    width: 40%;
+}
+.my-info>ul li:not(:first-child){
+    width: 30%;
+}
+.my-info>ul li:last-child{
+    border: none;
+}
+.my-info>ul li:first-child>div:last-child{
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+}
+
+#my-clinic,
+#clinic-count,
+#my-mark,
+#my-r,
+#my-q
+{
+    font-size: 30px;
+}
+
+#hospital-info{
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+
+
+/* my page side box 이미지 & 내 정보 */
+
+.img-info{
+    width: 177px;
+    text-align: center;
+}
+.img-box{
+    width: 177px;
+    height: 190px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+#name-box{
+    font-size: 33px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+#update-box{
+    width: 177px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#pp-btn{
+	width: 80px;
+}
+
+
+
+
+
+
+/* my page content*/
+
+
+/* CSS */
+.load-more-btn {
+  align-items: center;
+  appearance: none;
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: .375em;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #363636;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1rem;
+  height: 2.5em;
+  justify-content: center;
+  line-height: 1.5;
+  padding: calc(.5em - 1px) 1em;
+  position: relative;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.load-more-btn:active {
+  border-color: #4a4a4a;
+  outline: 0;
+}
+
+.load-more-btn:focus {
+  border-color: #485fc7;
+  outline: 0;
+}
+
+.load-more-btn:hover {
+  border-color: #b5b5b5;
+}
+
+.load-more-btn:not(:active) {
+  box-shadow: rgba(72, 95, 199, .25) 0 0 0 .125em;
+}
+
+
+.mytbl-wrap>div:last-child{
+	margin-top: 20px;
+	display: flex;
+	justify-content: right;
+}
+
+
+/* -------------- more-btn */
+
+
+
+.mypage-content{
+    float: left;
+    width: 79%;
+    margin-top: 50px;
+}
+.mytbl-wrap{
+    margin-bottom: 40px;
+}
+.my-title{
+    color: rgb(255, 197, 0);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.my-title>span{
+    color: rgb(255, 197, 0);
+    font-weight: 600;
+}
+
+#myquestion-tbl{
+    margin-top: 10px;
+}
+#myquestion-tbl th,
+#myHistory-tbl th,
+#myAnswer-tbl th,
+#myReview-tbl th,
+#myreserve-tbl th{
+    border-bottom: 1px solid #bbb;
+    border-top: 1px solid #bbb;
+    padding: 7px;
+}
+.q-tbl>tbody>tr>td:first-child{
+    text-align: left;
+    padding-left: 40px;
+}
+.q-tbl>tbody>tr>td:first-child>a>span{
+    font-size: 23px;
+    font-weight: 600;
+    color: #10CB9C;
+    padding-right: 5px;
+}
+
+
+
+
+
+
+
+
+/*모달*/
+
+.pmodal-wrap{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.21);
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    z-index: 10;
+    align-items: center;
+}
+
+.modal-profil{
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    width: 50vw;
+    min-width: 500px;
+    height: 30vh;
+    min-height:300px;
+    align-items: center;
+    text-align: center;
+    border-radius: 25px;
+}
+.modal-top h1{
+    text-align: center;
+    margin: 30px auto;
+    font-size: 24px;
+    line-height: 24px;
+}
+.pmodal-btn-box{
+    width: 280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profil-tbl{
+	margin: 0 auto;
+}
+.profil-tbl td:nth-child(2){
+	padding-left:40px;
+}
+

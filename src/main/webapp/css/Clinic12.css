@@ -1,0 +1,95 @@
+.clinic-title>h1{
+    font-size: 20px;
+    width: 800px;
+    margin: 0 auto;
+    font-family: ns-m;
+}
+
+.clinic-wrap{
+    padding-top: 50px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#clinic-wrap{
+	margin-bottom: 110px;
+}
+
+/*테이블*/
+.clinictbl-1{
+width: 800px;
+margin: 0 auto;
+}
+
+/* tr */
+.clinictr-1{
+    height: 150px;
+    cursor: pointer;;
+    text-align: center;
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #10CB9C;
+
+}
+
+/*첫번째 td  이미지, 이비인후과 */
+.clinictdtd-1{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center ;
+    flex-grow: 2;
+    width: 380px;
+}
+
+/*td에 마우스 올렸을때 진료과목 글씨색 바뀌기*/
+.clinictdtd-1:hover>a>.clinicspsp-1{
+    color: #10CB9C;
+    transition: .4s ease-in-out;
+}
+
+.clinictdtd-1:hover>a>.clinicspsp-1>span{
+    color: #10CB9C;
+    transition: .4s ease-in-out;
+}
+
+.clinictdtd-1>a{
+    display: flex;
+    width: 100%;
+    flex-grow: 2;
+    justify-content: space-evenly;
+    align-items: center ;
+}
+
+
+/*첫번째 tr radius*/
+.clinictr-1{
+    border-radius: 10px;
+}
+
+/*가운데 실선*/
+.clinictdtd2{
+    border-right: 1px solid #10CB9C;
+}
+
+/*진료과목 아이콘*/
+div>img{
+    width: 80px;
+}
+
+/*진료과목 글씨 */
+.clinicspsp-1{
+    font-size: 20px;
+    font-family: ns-m;
+}
+
+/*진료과목 밑에 글*/
+.clinicspsp-1>span{
+    display: block;
+    font-size: 14px;
+    font-family: ns-light;
+}
+
+
+

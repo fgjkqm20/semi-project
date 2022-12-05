@@ -1,0 +1,56 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    color: rgba(37, 42, 52, 1);
+    font-family: ns-m;
+    font-size: 16px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.page-content{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.QStop{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.QStoptitle{
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+.QuickInfo{
+    margin: 0 auto;
+}
+
+.qii{
+    width: 600px;
+    display: inline-block;
+}
+
+.qii2{
+    width: 500px;
+    height: 50px;
+    display: inline-block;
+}
+
+.qitbtn{
+    width: 100px;
+    height: 50px;
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.qibtn{
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 900;    
+}
+

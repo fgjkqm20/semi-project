@@ -1,0 +1,234 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    color: rgba(37, 42, 52, 1);
+    font-family: ns-m;
+    font-size: 16px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.page-content{
+    width: 1200px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+.PStop{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.PStoptitle{
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+.PSmap{
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-left : 300px;
+}
+
+.PSoption{
+	width : 800px;
+	margin-left : 200px;
+	display : flex;
+	justify-content : center;
+}
+
+.PSoption input{
+	width:600px;
+	height:50px;
+	margin-left : 100px;
+	margin-top : 5px;
+	margin-right:5px;
+}
+
+.PSoption>span{
+	width:404px;
+	height:50px;
+	margin-left : 100px;
+	margin-top : 5px;	
+		margin-right:5px;
+	
+	display : inline-block;
+}
+
+
+.PSoption>button{
+	width : 200px;
+	height : 50px;
+	margin-top : 5px;
+}
+
+
+
+.PSmiddle{
+    height: 25px;
+}
+
+
+.PSmid{
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 900;
+}
+
+.PSinput{
+    margin-left: 35px;
+    margin-bottom: 20px;
+}
+
+.PSmidInput{
+    display: inline-block;
+}
+
+.PSmidsearchResult{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.PSmnext{
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 400px;
+}
+
+.PSbottom{
+    margin: 0 auto;
+}
+
+.PSbot{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.selectQuick{
+    width: 800px;
+    height: 700px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.selectQuick span{
+    margin-top: 30px;
+}
+
+.quick{
+    font-size: 160px;
+    margin-left: 320px;
+}
+
+.selectQuick div:first-child{
+    font-size: 30px;
+    text-align: center;
+}
+
+.selectQuick div:last-child{
+    font-size: 15px;
+}
+
+.visit{
+    font-size: 160px;
+    margin-left: 320px;
+}
+.sqfd{
+    font-size: 30px;
+    text-align: center;
+    font-family: ns-bold;
+}
+.sqsd{
+    text-align: center;
+}
+
+.visitreceive{
+    display: block;
+    border-top: 1px solid black;
+}
+
+.visitreceive:hover{
+	cursor : pointer;
+}
+
+.homeAddr{
+	display : inline-block;
+}
+
+.detailAddr{
+	display : inline-block;
+}
+
+
+.PSmnext{
+	margin-left : 600px;
+	margin-bottom : 30px;
+}
+
+.iptHomeAddr input{
+	margin-left : 390px;
+	margin-bottom : 10px;
+}
+
+.iptHomeAddr button{
+	height : 51px;
+}
+
+.inpTbl{
+	margin-left : 250px;
+	
+}
+
+/*모달시작*/
+
+.modal-request{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    z-index: 10;
+    align-items: center;
+    display: none;
+}
+
+.modal-login{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 300px;
+    height: 150px;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.modalComment{
+    font-weight: 900;
+    margin-top: 20px;
+    color: #dddddd;
+}
+
+.closemodal{
+    float: right;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-right: 10px;
+    color: #dddddd;
+}
+
+.modal-content button{
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+}
+

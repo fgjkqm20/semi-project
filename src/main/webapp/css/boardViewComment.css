@@ -1,0 +1,148 @@
+.main-img{
+    height: 30vh;
+    background-image: url(/img/clinicImg/qna게시판배경con3_bg.jpg);
+    background-size: cover;
+    text-align: center;
+    font-family: ns-m;
+    font-size: 30px;
+    color: aliceblue;
+    line-height: 180px;
+}
+
+#boardlistwarp{
+	margin-bottom: 110px;
+}
+
+/*qna 밑에 글씨 */
+.main-img>div{
+    position: relative;
+    bottom: 140px;
+    font-family: ns-thin;
+    color: white;
+    font-size: 14px;
+}
+
+.tbl{
+    background-color: floralwhite;
+    margin: 20px;
+}
+ /*게시글 보여지는 내용(이걸 지웠을때 창모양이 꺠짐)*/
+#boardContent{
+	min-height:300px;
+	text-align: left;
+}
+
+
+.boardView{
+    margin: 0 auto;
+}
+
+/*목록버튼*/
+#qna-list{
+    margin-left: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 45px;
+}
+
+/*댓글*/
+.inputCommentBox{
+    margin-bottom:50px;
+}
+.inputCommentBox>form>ul{ /*아이콘, 댓글창, 댓글버튼 list style없애주고 옆으로 붙이려고 flex*/
+    list-style-type:none;
+    display:flex;
+}
+.inputCommentBox>form>ul>li:first-child{ /*아이콘*/
+    width:15%;
+    display:flex;
+    justify-content: end;
+    align-items : center;
+}
+.inputCommentBox>form>ul>li:first-child>span{
+    font-size:80px;
+    color:#ccc;
+}
+/*댓글 input 창*/
+.inputCommentBox>form>ul>li:nth-child(2){
+    width:75%;
+    display: flex;
+    justify-content: center;
+}
+.inputCommentBox>form>ul>li:nth-child(2)>textarea.input-form{
+    width: 90%;
+    height:96px;
+    min-height:96px;
+}
+/*댓글 등록버튼*/
+.inputCommentBox>form>ul>li:last-child{
+    width:20%;
+
+}
+
+/*댓글 아이콘 색상*/
+.posting-comment>li>span{
+    color: #101010;
+    font-size: 50px;
+}
+
+
+
+/*첫번쨰 코멘트*/
+.posting-comment{
+    list-style-type: none;
+    display: flex;
+    border-top: 2px solid #ccc;
+}
+.posting-comment>li:first-child{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    border-right: 1px solid #ccc;
+}
+.posting-comment>li{
+    box-sizing: border-box;
+}
+
+.posting-comment>li:last-child{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+.posting-comment>li:last-child>p{
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.posting-comment>li:last-child> .comment-link{
+    text-align: right;
+}
+
+.posting-comment > li:last-child > .comment-info>span:not(:last-child){
+    border-right: 2px solid #ccc;
+}
+
+.posting-comment>li:last-child>.comment-info>span{
+    padding: 0px 20px;
+}
+
+#updateCommentText{
+	width: 1000px;
+	margin-left: 5px;
+}
+
+#commentpage{
+	margin-bottom: 110px;
+}
+/*수정 삭제 버튼*/
+.updateBtn{
+	padding-top: 7px;
+}
+#comment-button{
+	height: 96px;
+}

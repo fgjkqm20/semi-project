@@ -1,0 +1,46 @@
+.info-box{
+    margin-bottom: 24px;
+    width: 400px;
+}
+
+.info-box div{
+    padding-bottom: 7px;
+}
+.update-title{
+    font-size: 24px;
+    border-bottom: 1px solid #bbb;
+    margin-bottom: 20px;
+    padding-bottom: 4px;
+}
+
+.info-box:nth-of-type(3){
+    margin-bottom: 40px;
+}
+.old-pw-box>span{
+	display: inline-block;
+    margin-right: 20px;
+}
+.new-pw-box{
+    display: none;
+}
+.new-pw-box>div>span{
+	padding-left: 20px;
+} 
+.with-btn{
+    display: flex;
+    justify-content: space-between;
+}
+.bc-save {
+	color: rgba(37, 42, 52, 1);
+	background-color: #f8f8f8;;
+	border: 2px solid rgba(37, 42, 52, 1);
+}
+.bc-save:hover {
+	background-color: rgba(37, 42, 52, 1);
+	cursor: pointer;
+	color: #f8f8f8;;
+}
+.update-info{
+	margin-bottom: 80px;
+}
+

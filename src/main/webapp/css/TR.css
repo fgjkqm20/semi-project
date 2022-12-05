@@ -1,0 +1,480 @@
+.page-content{
+    width: 800px;
+    margin-top: 150px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    padding: 0 30px;
+    padding-bottom : 70px;
+    overflow: hidden;
+}
+.BBack{
+	background-color: #f8f8f8;
+}
+.page-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 20px 0;
+    border-bottom: 3px solid #449f8d;
+}
+.contentTop{
+    width: 100%;
+    margin: 0 auto;
+    height: 50px;
+    border-bottom: 1px solid #449f8d;
+    
+}
+.contentTop>div{
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-indent: 30px;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px; 
+}
+.reservate{
+    width: 50%;
+    /* background-color: beige; */
+    border-right: 1px solid lightgray;
+    float: left;
+    margin-top: 20px;
+    /* height: 100%; */
+}
+.treatOff{
+    width: 49%;
+    /* background-color: bisque; */
+    float: left;
+    /* height: 100%; */
+    margin-top: 20px;
+    border-left: 1px solid lightgray;
+}
+.patient{
+    width: 60%;
+    height: 110%;
+    float: left;
+}
+.patient>div{
+    height: 40px;
+    width:100%;
+    line-height: 40px;
+    text-indent: 30px;
+}
+.patientDate{
+	font-size: 13px;
+}
+.treatOff>.status:last-child button:first-child{
+	background: lightgray;
+	border: 1px solid lightgray;
+}
+.status{
+    width: 40%;
+    float: right;
+    padding: 25px 0;
+}
+.status button:last-child:hover{
+	background-color: #ffffff;
+	color : #3598db;
+	border: 2px solid #3598db;
+}
+.treatOff>.status:last-child>button{
+	cursor: default;
+}
+.status button{
+    display: block;
+    font-size: 15px;
+    margin: 0 auto;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+}
+.status button:first-child{
+    margin-bottom: 10px;
+    background-color: #449f8d;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #449f8d;
+}
+
+.status button:last-child{
+    border-radius: 5px;
+    border: 1px solid #3598db;
+    background-color: #3598db;
+    color: #ffffff;
+}
+.patientName{
+    font-size: 17px;
+    font-weight: 600;
+}
+.outBtn{
+    margin: 30px auto;
+    text-align: center;
+}
+.outBtn button{
+    width: 130px;
+    height: 50px;
+    border-radius: 30px;
+    border: 2px solid #449f8d;
+    color: #449f8d;
+    font-weight: 700;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.outBtn button:last-child{
+    background-color: #449f8d;
+    color: #ffffff;
+}
+.outBtn button:last-child:hover{
+    background: none;
+    color: #449f8d;
+    border: 2px solid #449f8d;
+    border-radius: 30px;
+}
+#body .swal2-title{
+   font-size: 25px;
+}
+
+#body .swal2-styled.swal2-confirm{
+   background-color: #10cb9c;
+   font-size : 20px;
+   width : 150px;
+   height : 40px;
+   line-height:13px;
+}
+body{
+	  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+
+.patientClose{
+    width: 500px;
+    height: 420px;
+    margin: 0 auto;
+    background-color:#f8f8f8;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 20px;
+    position: absolute;
+    left: 35%;
+    top: 30%;
+    display: none;
+}
+.CloseCancel{
+    width: 100%;
+    height: 35px;
+}
+.CloseCancel>span{
+    float: right;
+    margin-right: 10px;
+    line-height: 35px;
+    cursor: pointer;
+}
+.CloseCancel>span:hover{
+    font-weight: 600;
+}
+.patientPic{
+    margin-left: 50px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    float: left;
+}
+.patientPic >img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin: 25px 0;
+}
+.aboutPatient{
+    float: right;
+    width: 200px;
+    height: 200px;
+    margin-right: 50px;
+}
+.aboutPatient>div{
+    height: calc(200px/3);
+    line-height: calc(200px/3);
+    text-indent: 20px;
+}
+.aboutPatient>div>span{
+    font-size: 17px;
+    font-weight: 600;
+}
+.wherePain{
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+}
+.wherePain>p{
+    text-indent: 10px;
+}
+.wherePain>textarea{
+    background-color: lightgrey;
+    border-radius: 10px;
+    width: 380px;
+    height: 100px;
+    margin-top: 10px;
+    border: none;
+    resize: none;
+    padding: 10px;
+}
+.wherePain>textarea:focus{
+    outline: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.priceArea{
+    position: absolute;
+    width: 500px;
+    height: 220px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border: 2px solid darkgray;
+}
+.ptext{
+    text-align: center;
+    padding-top:30px;
+    padding-bottom:20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.ptext>p{
+	font-size:13px;
+	color:red;
+}
+.priceArea div:last-child{
+    width: 300px;
+    margin: 0 auto;
+}
+.price{
+    width: 70%;
+    height:30px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-indent: 10px;
+    border: 2px solid lightgray;
+    border-radius: 15px;
+}
+.price:focus{
+	outline: none;
+}
+.ptext>span{
+	font-size: 19px;
+}
+.payM button{
+    margin: 0 auto;
+    width: 49%;
+    height: 30px;
+    color: #3598db;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    background-color: #ffffff;
+    border :1px solid #3598db; 
+}
+.payM button:hover{
+	color: #ffffff;
+	background-color : #3598db;
+	border: 1px solid #3598db;  
+}
+.prmodal-wrap{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.21);
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    z-index: 10;
+    align-items: center;
+}
+.prmodal-wrap1{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.21);
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    z-index: 10;
+    align-items: center;
+}
+.changeState{
+	width: 400px;
+	height: 200px;
+	background-color: #ffffff;
+	border-radius: 30px;
+}
+.pName{
+	width:170px;
+	margin: 0 auto;
+	font-size: 20px;
+	padding: 20px 0; 
+}
+.pName>span{
+	font-size: 20px;
+}
+.input-form{
+	width: 300px;
+}
+.button-wrap{
+	width: 200px;
+	margin: 20px auto; 
+}
+.button-wrap button{
+	width: 48%;
+	height: 30px;
+	border: 2px solid #3598db;
+	border-radius: 5px;
+	background-color: #f8f8f8;
+	color:  #3598db;
+	cursor: pointer;
+}
+.button-wrap button:hover{
+	background-color: #3598db;
+	color: #ffffff;
+}
+
+
+.prmodal-wrap2{
+	width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.21);
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    z-index: 10;
+    align-items: center;
+}
+.sendMat{
+	width: 400px;
+	height: 200px;
+	background-color: #ffffff;
+	border-radius: 30px;
+}
+.drugHead{
+	font-size: 17px;
+	margin: 0 auto;
+	width: 80%;
+	padding-top: 30px;
+}
+.drugHead>span{
+	font-size:17px;
+}
+
+.filebox{
+	padding-top: 30px;
+	padding-left: 40px; 
+}
+
+.filebox input[type="file"] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip:rect(0,0,0,0);
+  border: 0;
+}
+
+.filebox label {
+  display: inline-block;
+  padding: .5em .75em;
+  color: #ffffff;
+  font-size: inherit;
+  line-height: normal;
+  vertical-align: middle;
+  background-color: #10cb9c;
+  cursor: pointer;
+  border: 1px solid #ebebeb;
+  border-bottom-color: #e2e2e2;
+  border-radius: .25em;
+}
+
+/* named upload */
+.filebox .upload-name {
+  display: inline-block;
+  padding: .5em .75em;  /* label의 패딩값과 일치 */
+  font-size: inherit;
+  font-family: inherit;
+  line-height: normal;
+  vertical-align: middle;
+  background-color: #f5f5f5;
+  border: 1px solid #ebebeb;
+  border-bottom-color: #e2e2e2;
+  border-radius: .25em;
+  -webkit-appearance: none; /* 네이티브 외형 감추기 */
+  -moz-appearance: none;
+  appearance: none;
+}
+.drugBtn{
+	padding-top: 22px;
+	width: 250px;
+	margin: 0 auto;
+}
+
+.drugBtn>button{
+	width: 120px;
+	height: 30px;
+	border: 1px solid #10cb9c;
+	background-color: #ffffff;
+	border-radius: 15px;
+	cursor: pointer;
+}
+.drugBtn>button:hover{
+	background-color: #10cb9c;
+	color:#ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

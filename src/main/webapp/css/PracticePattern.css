@@ -1,0 +1,210 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    color: rgba(37, 42, 52, 1);
+    font-family: ns-m;
+    font-size: 16px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* .guide-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    color: black;
+    padding: 80px 0 80px;
+} */
+
+
+
+.guide-subTitle{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+
+.guide-tab-wrap{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 100px;
+}
+.guide-tab-wrap>ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.guide-tab-wrap>ul>li{
+    width: 80px;
+    height: 80px;
+    float: left;
+    border-radius: 60px;
+    line-height: 30px;
+}
+
+.guide-tab-wrap>ul>span{
+    color: black;
+}
+
+.tab-border{
+    background-color: #10CB9C;
+    opacity: 0.3;
+    border: 1px solid #dddddd;
+    color: #dddddd;
+}
+
+.tab-border div{
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.liColor{
+    background-color: #10CB9C;
+    opacity: 1;
+    border: 4px solid #10CB9C;
+    color: black;
+    height: 50px;
+}
+
+.tab-border div{
+    margin-top: 8px;
+    font-size: 20px;
+    color:white;
+}
+
+.orderStep{
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-top: 70px;
+}
+
+.successMedical{
+    border: 1px solid rgb(37, 42, 52);
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.successMedical td{
+    font-size: 20px;
+    font-family: ns-bold;
+    border: 1px solid rgb(37, 42, 52);
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.order p{
+    color: rgba(37, 42, 52, 1);
+    font-size: 30px;
+}
+
+
+.guide-tab-wrap>ul>span{
+    line-height: 70px;
+}
+
+.guideSlide-wrap{
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.guideSlide-wrap>ul{
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+.guideSlide-wrap ul>li{
+    width: 1200px;
+    height: 400px;
+    float: left;
+    text-align: center;
+}
+
+.slide-navi{
+    height: 400px;
+    line-height: 400px;
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    opacity: 0.4;
+}
+
+.prev{
+    left: 0;
+}
+.next{
+    right: 0;
+}
+
+.slide-navi>span{
+    font-size: 30px;
+    color: rgba(37, 42, 52, 1);
+}
+
+.slide-navi:hover{
+    cursor: pointer;
+}
+
+/*약 수령하는 모달시작*/
+
+.modal-request{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    z-index: 10;
+    align-items: center;
+    display: none;
+}
+
+.modal-login{
+    background-color:#fff;
+    width: 300px;
+    height: 150px;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.modalComment{
+    font-weight: 900;
+    margin-top: 20px;
+    color: black;
+}
+
+.closemodal{
+    float: right;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-right: 10px;
+    color: #dddddd;
+}
+
+.modal-content button{
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+}

@@ -1,0 +1,123 @@
+.page-title{
+    padding: 20px;
+    margin-left: 120px;
+}
+
+.detail-info{
+    width: 900px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    height: 50px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    border-radius: 15px;
+    border: 1px solid #bbb;
+}
+
+.detail-info>div{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    width: 200px;
+    margin-top: 10px;
+    padding-left: 15px;
+}
+.detail-info>div:first-child{
+    border-right: 1px solid black;
+}
+.detail-info>div>span{
+    display: inline-block;
+    width: 100px;
+}
+.info-box{
+    width: 850px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.info-box>div:first-child{
+    color: #10CB9C;
+    font-weight: 600;
+    font-size: 24px;
+}
+.info-box:last-child{
+    margin-bottom: 150px;
+}
+#mediinfo-tbl, #drug-tbl{
+    margin-top: 10px;
+}
+#mediinfo-tbl th, #drug-tbl th{
+    border-bottom: 1px solid #bbb;
+    border-top: 1px solid #bbb;
+    padding: 7px;
+}
+
+
+
+
+
+/*모달*/
+
+.rmodal-wrap{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.21);
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    z-index: 10;
+    align-items: center;
+}
+
+.modal-review{
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    width: 500px;
+    height: 480px;
+    align-items: center;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.modal-top h1{
+    text-align: center;
+    margin: 30px auto;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+#star-box{
+    margin: 0 auto;
+    width: 250px;
+    overflow: hidden;
+}
+#star-box>span{
+    float: left;
+    font-size: 50px;
+    color: lightgray;
+}
+.comment-box>div{
+    margin-top: 10px;
+}
+.comment-box>div:first-child{
+    visibility: hidden;
+}
+#review-textarea {
+    width: 80%;
+    height: 150px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    font-size: 16px;
+    resize: none;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.modal-btn-box{
+    width: 280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}

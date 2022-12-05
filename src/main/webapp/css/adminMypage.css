@@ -1,0 +1,136 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    color: rgba(37, 42, 52, 1);
+    font-family: ns-m;
+    font-size: 16px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.page-content{
+    width: 1200px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+
+.management{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 900;
+}
+
+.searchBar{
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.searchIcon{
+    width: 50px;
+    height: 50px;
+}
+
+.qitbtn{
+    height: 47px;
+    margin-left: 5px;
+}
+
+.MAinfo td{
+    background-color: #eee;
+}
+
+.memberAdmin{
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.memberAdmin td{
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+.selectBox {
+    position: relative;
+    width: 100px;
+    height: 20px;
+    /* border-radius: 4px; */
+    /* border: 2px solid lightcoral; */
+}
+
+.selectBox .gradeSelect {
+    width: inherit;
+    height: inherit;
+    background: transparent;
+    border: 0 none;
+    outline: 0 none;
+    padding: 0 5px;
+    position: relative;
+    z-index: 3; 
+}
+
+.selectBox .gradeSelect option {
+    background: #10cb9c;
+    color: #fff;
+    padding: 3px 0;
+    font-size: 16px;
+}
+
+.bottomBtn{
+	margin-left: 500px;
+	margin-top: 50px;
+	width: 200px;
+	height: 40px;
+    margin-bottom: 50px;
+}
+
+/*모달시작*/
+
+.modal-request{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    z-index: 10;
+    align-items: center;
+    display: none;
+}
+
+.modal-login{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 300px;
+    height: 150px;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.modalComment{
+    font-weight: 900;
+    color: #dddddd;
+}
+
+
+.checkIcons, .XIcons{
+    color: #10cb9c;
+    font-size: 50px;
+}
+
+.checkIcons{
+    margin-right: 20px;
+}
+
+.XIcons{
+    margin-left: 20px;
+}

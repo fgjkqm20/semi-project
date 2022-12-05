@@ -1,0 +1,44 @@
+.main-img{
+    height: 30vh;
+    background-image:  url(/img/clinicImg/qna게시판배경con3_bg.jpg);
+    background-size: cover;
+    text-align: center;
+    font-family: ns-m;
+    font-size: 30px;
+    color: aliceblue;
+    line-height: 180px;
+}
+
+#boardlistwarp{
+	margin-bottom: 110px;
+}
+
+/*qna 밑에 글씨 div설정*/
+.main-img>div{
+    position: relative;
+    bottom: 140px;
+    font-family: ns-thin;
+    color: white;
+    font-size: 14px;
+}
+
+.updatetitle{
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+.boardwritetbl{
+    margin: 20px;
+}
+
+#noticeUpdateFrm{
+    margin: 0 auto;
+}
+
+
+/*게시판 제목, 내용 창 크기*/
+#boardwriteinput{
+    width: 800px;
+    display: inline-block;
+}
+

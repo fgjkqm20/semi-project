@@ -1,0 +1,71 @@
+.page-title>p{
+	text-align: center;
+}
+.page-title>p:nth-child(1){
+	font-size: 24px;
+	color: #10CB9C;
+	font-family: ns-bold;
+}
+
+.counsel-category{
+	width: 960px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 50px;
+	box-shadow: 10px 10px 10px 5px #c8c8c8;
+}
+
+.subject-content{
+	width: 160px;
+	height: 100px;
+	outline: 1px solid #dadce0;
+}
+
+.subject-inner{
+	height: 70px;
+	padding: 15px 0px;
+}
+
+.subject-image{
+	display: block;
+	width: 50px;
+	margin: 0 auto;
+}
+
+.subject-text{
+	height: 20px;
+	text-align: center;
+}
+
+.counsel-search{
+	display: flex;
+	justify-content: flex-end;
+}
+
+#searchInput{
+	margin-right: 10px;
+}
+
+#counsel-board-top{
+	background-color: #f8f8f8;
+	font-weight: bold;
+}
+
+.counsel-board td{
+	border: 1px solid #dadce0;
+}
+
+.counsel-write, .counsel-search, .counsel-board{
+	margin-top: 20px;
+}
+
+.title{
+	overflow: hidden;
+	text-overflow : ellipsis;
+}
+
+.dot{
+	width: 5px;
+	display: none;
+}

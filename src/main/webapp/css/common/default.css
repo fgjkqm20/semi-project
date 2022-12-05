@@ -1,0 +1,287 @@
+/* 기본 폰트 */
+@font-face {
+    font-family: ns-thin;
+    src: url(/css/font/NotoSansKR-Thin.otf);
+}
+@font-face {
+font-family: ns-light;
+src: url(/css/font/NotoSansKR-Light.otf);
+}
+@font-face {
+font-family: ns-m;
+src: url(/css/font/NotoSansKR-Medium.otf);
+}
+@font-face {
+font-family: ns-bold;
+src: url(/css/font/NotoSansKR-Bold.otf);
+}
+@font-face {
+font-family: ns-black;
+src: url(/css/font/NotoSansKR-Black.otf);
+}
+
+
+
+/* 기본디자인 */
+* {
+    margin: 0;
+    padding: 0;
+    color: rgba(37, 42, 52, 1);
+    font-family: ns-m;
+    font-size: 16px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.page-content{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 110px;
+    margin-bottom: 110px;
+    flex: 1;
+}
+a {
+    text-decoration: none;
+}
+
+
+
+
+/*---------버튼 모양 ---------*/
+
+.btn {
+    display: inline-block;
+    width: 120px;
+    height: 34px;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-align: center;
+}
+.btn_radius {
+    display: inline-block;
+    width: 120px;
+    height: 34px;
+    border-radius: 17px;
+    font-size: 1rem;
+    text-align: center;
+}
+.btn_small{
+    width: 78.5px;
+    height: 26.5px;
+    font-size: 13px;
+    border-radius: 13.5px;
+}
+.btn_small2{
+    width: 78.5px;
+    height: 26.5px;
+    font-size: 13px;
+}
+.btn_big{
+    display: inline-block;
+    width: 400px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+/*--------------버튼 색상 ------------*/
+.bc1 {
+background-color: #10cb9cc5;
+color: #fff;
+border: 2px solid #10CB9C;
+}
+.bc1:hover {
+background-color: #10CB9C;
+cursor: pointer;
+}
+
+.bc2 {
+background-color: rgb(255, 197, 0, 0.6);
+color: #fff;
+border: 2px solid rgb(255, 197, 0);
+}
+.bc2:hover {
+background-color: rgb(255, 197, 0);
+cursor: pointer;
+}
+
+.bc3 {
+background-color: #064d3bd9;
+color: #fff;
+border: 2px solid #064D3B;
+}
+.bc3:hover {
+background-color: #064D3B;
+cursor: pointer;
+}
+
+.bc4 {
+    background-color: #77bad7bd;
+    color: #fff;
+    border: 2px solid #77bbd7;
+    }
+.bc4:hover {
+    background-color: #77bbd7;
+    cursor: pointer;
+}
+
+.bc5 {
+    background-color: #008bbaaf;
+    color: #fff;
+    border: 2px solid #008CBA;
+    }
+.bc5:hover {
+    background-color: #008CBA;
+    cursor: pointer;
+}
+
+.bc6 {
+    background-color: #444444d2;
+    color: #fff;
+    border: 2px solid #444444;
+    }
+.bc6:hover {
+    background-color: #444444;
+    cursor: pointer;
+}
+
+
+
+.bc11 {
+color: rgba(37, 42, 52, 1);
+background-color: #fff;
+border: 2px solid rgba(37, 42, 52, 1);
+}
+.bc11:hover {
+background-color: rgba(37, 42, 52, 1);
+cursor: pointer;
+color: #fff;
+}
+
+.bc22 {
+color: #10CB9C;
+background-color: #fff;
+border: 2px solid #10CB9C;
+}
+.bc22:hover {
+background-color: #10CB9C;
+cursor: pointer;
+color: #fff;
+}
+
+.bc33 {
+color: rgb(255, 197, 0);
+background-color: #fff;
+border: 2px solid rgb(255, 197, 0);
+}
+.bc33:hover {
+background-color: rgb(255, 197, 0);
+cursor: pointer;
+color: #fff;
+}
+
+.bc44 {
+    color: #77bbd7;
+    background-color: #fff;
+    border: 2px solid #77bbd7;
+    }
+.bc44:hover {
+    background-color: #77bbd7;
+    cursor: pointer;
+    color: #fff;
+}
+
+.bc55 {
+    color: #008CBA;
+    background-color: #fff;
+    border: 2px solid #008CBA;
+    }
+.bc55:hover {
+    background-color: #008CBA;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+
+/* -----------------input 디자인-------------- */
+.input-form { /* 두껍고 각진 input */
+    width: 400px;
+    padding: 12px 20px;
+    display: block;
+    background-color: #fff;
+    outline: none;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.input-form:focus {
+    box-shadow: 0 0 0 0.1rem #eee;
+}
+.input-form2 { /* 얇고 각진 input */
+    width: 400px;
+    padding: 4px 20px;
+    display: block;
+    background-color: #fff;
+    outline: none;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.input-form2:focus {
+    box-shadow: 0 0 0 0.1rem #eee;
+}
+.input-form3 {  /* 얇고 둥근 input */
+    width: 400px;
+    padding: 4px 20px;
+    display: block;
+    background-color: #fff;
+    outline: none;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.input-form3:focus {
+    box-shadow: 0 0 0 0.1rem #eee;
+}
+
+
+textarea.input-form {
+    resize: none;
+    min-height: 300px;
+}
+.input-form:read-only:not(select),
+.input-form:disabled {
+    background-color: #f7f7f9;
+}
+
+
+
+
+
+
+/* ------------tbl 디자인-------------*/
+
+.tbl{
+    width: 1000px;
+    border-collapse: collapse;   /* border간격없애주는css*/
+}
+
+.tbl th, .tbl td {
+    padding: 1rem;
+    text-align: center;
+}
+
+.tbl th{
+    border-bottom: 2px solid #444444;
+}
+
+.tbl .tr-1 {
+    background-color: rgba(255, 255, 255, 1);
+}
+.tbl.tbl-hover .tr-1:hover {
+    background-color: #F8F8F8;
+}

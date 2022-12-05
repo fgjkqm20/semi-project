@@ -1,0 +1,83 @@
+.board-tbl{
+	width: 1000px;
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+.board-tbl td{
+	border: 1px solid rgba(37, 42, 52, 1);
+}
+
+.board-colored{
+	padding: 8px;
+	text-align: center;
+	background-color: #10cb9c;
+}
+
+.board-info{
+	padding-left: 16px;
+	text-align: left;
+}
+
+.board-content{
+	width: 938px;
+	margin: 0 auto;
+	margin-top: 30px;
+	padding: 30px;
+	border: 1px solid #00000032;
+}
+
+.board-change-btn-box-wrap{
+	width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.board-change-btn-box{
+	width: 250px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.inputCommentBox-wrap, .commentBox-wrap{
+	width: 958px;
+	margin: 0 auto;
+	margin-top: 30px;
+	padding: 20px;
+	border: 1px solid #dadce0;
+	background: #f2f5f9;
+}
+
+.inputCommentBox ul{
+	padding-left: 0px;
+	list-style-type: none;
+	display: flex;
+	justify-content: flex-end;
+	background: white;
+}
+
+.inputCommentBox textarea{
+	display: block;
+}
+
+.commentInfo{
+	display: flex;
+}
+
+.commentInfo>p, .commentInfo>div{
+	margin-right: 5px;
+}
+
+.memberId{
+	font-family: ns-bold;
+}
+
+.commentDate{
+	color: #999999;
+}
+
+.commentContentModify{
+	margin-top: 10px;
+}
