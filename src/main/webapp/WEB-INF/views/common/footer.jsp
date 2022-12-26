@@ -72,7 +72,7 @@
 	</div>
 	<img src="/img/common/top.png" 
 	width="50px" height="50px"
-	class="btn-top">
+	class="btn-top" alt="top">
 </footer>
 
 <script src="/js/common/footer.js"></script>

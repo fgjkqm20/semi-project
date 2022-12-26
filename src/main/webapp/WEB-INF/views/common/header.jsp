@@ -20,7 +20,7 @@
 		<div class="header-logo">
 			<a href="/">
 				<img src="/img/common/로고.png"
-				width="150px" height="50px">
+				width="150px" height="50px" alt="로고">
 			</a>
 		</div>
 		<nav>

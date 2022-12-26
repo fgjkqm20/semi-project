@@ -1,111 +1,110 @@
 package nbd.qna.model.vo;
 
 public class Qna {
+    private String memberId; // 작성자
+    private int infoNo; // 글번호
+    private String infoTitle; // 글제목
+    private String infoContent; // 글내용
+    private int infoCount; // 조회수
+    private String infoDate; // 작성일
+    private String filePath; // 첨부파일
+    private String fileName;
+    private int commentCnt;// 댓글 갯수
 
-	private String memberId;	// 작성자
-	private int infoNo;			// 글번호
-	private String infoTitle;	// 글제목
-	private String infoContent;	// 글내용
-	private int infoCount;		// 조회수
-	private String infoDate;	// 작성일
-	private String filePath;	// 첨부파일
-	private String fileName;
-	private int commentCnt;//댓글 갯수
-	
-	
-	public Qna() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
-	
-	public Qna(String memberId, int infoNo, String infoTitle, String infoContent, int infoCount, String infoDate,
-			String filePath, String fileName, int commentCnt) {
-		super();
-		this.memberId = memberId;
-		this.infoNo = infoNo;
-		this.infoTitle = infoTitle;
-		this.infoContent = infoContent;
-		this.infoCount = infoCount;
-		this.infoDate = infoDate;
-		this.filePath = filePath;
-		this.fileName = fileName;
-		this.commentCnt = commentCnt;
-	}
+    public Qna() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
 
-	public String getMemberId() {
-		return memberId;
-	}
+    public Qna(String memberId, int infoNo, String infoTitle, String infoContent, int infoCount,
+            String infoDate, String filePath, String fileName, int commentCnt) {
+        super();
+        this.memberId = memberId;
+        this.infoNo = infoNo;
+        this.infoTitle = infoTitle;
+        this.infoContent = infoContent;
+        this.infoCount = infoCount;
+        this.infoDate = infoDate;
+        this.filePath = filePath;
+        this.fileName = fileName;
+        this.commentCnt = commentCnt;
+    }
 
-	public void setMemberId(String memberId) {
-		this.memberId = memberId;
-	}
+    public String getMemberId() {
+        return memberId;
+    }
 
-	public int getInfoNo() {
-		return infoNo;
-	}
+    public void setMemberId(String memberId) {
+        this.memberId = memberId;
+    }
 
-	public void setInfoNo(int infoNo) {
-		this.infoNo = infoNo;
-	}
+    public int getInfoNo() {
+        return infoNo;
+    }
 
-	public String getInfoTitle() {
-		return infoTitle;
-	}
+    public void setInfoNo(int infoNo) {
+        this.infoNo = infoNo;
+    }
 
-	public void setInfoTitle(String infoTitle) {
-		this.infoTitle = infoTitle;
-	}
+    public String getInfoTitle() {
+        return infoTitle;
+    }
 
-	public String getInfoContent() {
-		return infoContent;
-	}
-	
-	public String getQnaContentBr() { //textarea content부분에 내용쓸대 엔터 칠 수 있도록 get터를 만들어주고 noticeview.jsp content변경
-		return infoContent.replace("\r\n", "<br>");
-	}
+    public void setInfoTitle(String infoTitle) {
+        this.infoTitle = infoTitle;
+    }
 
-	public void setInfoContent(String infoContent) {
-		this.infoContent = infoContent;
-	}
+    public String getInfoContent() {
+        return infoContent;
+    }
 
-	public int getInfoCount() {
-		return infoCount;
-	}
+    public String getQnaContentBr() { // textarea content부분에 내용쓸대 엔터 칠 수 있도록 get터를 만들어주고
+                                      // noticeview.jsp content변경
+        return infoContent.replace("\r\n", "<br>");
+    }
 
-	public void setInfoCount(int infoCount) {
-		this.infoCount = infoCount;
-	}
+    public void setInfoContent(String infoContent) {
+        this.infoContent = infoContent;
+    }
 
-	public String getInfoDate() {
-		return infoDate;
-	}
+    public int getInfoCount() {
+        return infoCount;
+    }
 
-	public void setInfoDate(String infoDate) {
-		this.infoDate = infoDate;
-	}
+    public void setInfoCount(int infoCount) {
+        this.infoCount = infoCount;
+    }
 
-	public String getFilePath() {
-		return filePath;
-	}
+    public String getInfoDate() {
+        return infoDate;
+    }
 
-	public void setFilePath(String filePath) {
-		this.filePath = filePath;
-	}
+    public void setInfoDate(String infoDate) {
+        this.infoDate = infoDate;
+    }
 
-	public String getFileName() {
-		return fileName;
-	}
+    public String getFilePath() {
+        return filePath;
+    }
 
-	public void setFileName(String fileName) {
-		this.fileName = fileName;
-	}
+    public void setFilePath(String filePath) {
+        this.filePath = filePath;
+    }
 
-	public int getCommentCnt() {
-		return commentCnt;
-	}
+    public String getFileName() {
+        return fileName;
+    }
 
-	public void setCommentCnt(int commentCnt) {
-		this.commentCnt = commentCnt;
-	}
+    public void setFileName(String fileName) {
+        this.fileName = fileName;
+    }
+
+    public int getCommentCnt() {
+        return commentCnt;
+    }
+
+    public void setCommentCnt(int commentCnt) {
+        this.commentCnt = commentCnt;
+    }
 
 }
